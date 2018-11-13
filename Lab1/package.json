@@ -1,0 +1,22 @@
+{
+  "name": "lab1",
+  "version": "1.0.0",
+  "description": "Relational databases. Lab1",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "standard"
+  },
+  "author": "Vladyslav Kyrychenko",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "faker": "^4.1.0",
+    "pg": "^7.4.3",
+    "pg-promise": "^8.5.0",
+    "readline-sync": "^1.4.9"
+  }
+}
